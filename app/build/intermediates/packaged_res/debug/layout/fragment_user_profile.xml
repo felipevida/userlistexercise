@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.userlistapplication.ui.profile.UserProfileFragment">
+
+    <!-- USER PROFILE HEADER -->
+    <TextView
+        android:id="@+id/user_profile_header"
+        style="@style/TextAppearance.AppCompat.Headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/title_user_profile_page"
+        android:textAlignment="center"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- DIVIDER -->
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/gray" />
+
+    <!-- USER NAME LAYOUT WRAPPER-->
+    <LinearLayout
+        android:id="@+id/user_profile_name_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/user_profile_header">
+
+        <!-- USER NAME TITLE -->
+        <TextView
+            android:id="@+id/user_profile_name_title"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="3"
+            android:gravity="end"
+            android:text="@string/title_user_name_title" />
+
+        <!-- USER NAME TEXT -->
+        <TextView
+            android:id="@+id/user_profile_name_text"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="bottom|start"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/sample_name" />
+
+    </LinearLayout>
+
+    <!-- USER EMAIL LAYOUT WRAPPER-->
+    <LinearLayout
+        android:id="@+id/user_profile_email_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/user_profile_header">
+
+        <!-- USER NAME TITLE -->
+        <TextView
+            android:id="@+id/user_profile_email_title"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="3"
+            android:gravity="end"
+            android:text="@string/title_user_email" />
+
+        <!-- USER NAME TEXT -->
+        <TextView
+            android:id="@+id/user_profile_email_text"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="bottom|start"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/sample_email" />
+
+    </LinearLayout>
+
+    <!-- USER ADDRESS LAYOUT WRAPPER-->
+    <LinearLayout
+        android:id="@+id/user_address_wrapper"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/user_profile_header">
+
+        <!-- USER ADDRESS TITLE -->
+        <TextView
+            android:id="@+id/user_profile_address_title"
+            style="@style/TextAppearance.AppCompat.Body2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="3"
+            android:gravity="end"
+            android:maxLines="4"
+            android:text="@string/title_user_address" />
+
+        <!-- USER ADDRESS TEXT -->
+        <TextView
+            android:id="@+id/user_profile_address_text"
+            style="@style/TextAppearance.AppCompat.Body1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="bottom|start"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="@string/sample_address" />
+
+    </LinearLayout>
+
+</LinearLayout>

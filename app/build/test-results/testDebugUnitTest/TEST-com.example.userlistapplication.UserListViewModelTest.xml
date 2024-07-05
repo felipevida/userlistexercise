@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.userlistapplication.UserListViewModelTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-05T15:05:46" hostname="DESKTOP-3BHPKI7" time="0.776">
+  <properties/>
+  <testcase name="test network failure" classname="com.example.userlistapplication.UserListViewModelTest" time="0.776"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
