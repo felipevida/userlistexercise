@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">User List Exercise</string>
+    <string name="title_home">Home</string>
+    <string name="title_user_profile_page">User Profile</string>
+    <string name="title_user_name_title">Name:</string>
+    <string name="title_user_email">Email:</string>
+    <string name="title_user_address">Address:</string>
+
+    <!-- MOCK DATA -->
+    <string name="sample_name">John Doe</string>
+    <string name="sample_email">john.doe@email.com</string>
+    <string name="sample_address">123 Some Street, Town AA - A1B 2C3</string>
+</resources>
